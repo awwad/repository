@@ -11,6 +11,7 @@ def index(request):
     vehicle_version_manifest = json.loads(request.body)
 
     # Sanity-check manifest.
+    # TODO: check signatures based on VIN and primary serial number.
     signatures = vehicle_version_manifest['signatures']
     signed = vehicle_version_manifest['signed']
     VIN = signed['VIN']
