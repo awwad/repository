@@ -1,12 +1,12 @@
-from django.shortcuts import render
 from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+
 
 import json
 import time
 
-# Create your views here.
+@csrf_exempt
 def index(request):
-    assert request.is_ajax()
     assert request.method == 'POST'
     vehicle_version_manifest = json.loads(request.body)
 
