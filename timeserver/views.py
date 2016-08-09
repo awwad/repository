@@ -1,11 +1,12 @@
-from django.shortcuts import render
 from django.http import JsonResponse
 
+import json
 import time
 
-# Create your views here.
 def index(request):
-    nonces = request.GET.getlist('nonce')
+    assert request.method == 'GET'
+    nonces = json.loads(request.body)
+    assert isinstance(nonces, list)
 
     response = {}
     current_time = int(round(time.time()))
