@@ -4,6 +4,8 @@ import random
 import requests
 import sys
 
+from six.moves import xrange
+
 def get(number_of_ecus):
     nonces = random.sample(xrange(sys.maxint), number_of_ecus)
     request = requests.get('http://127.0.0.1:8000/timeserver/', json=nonces)
