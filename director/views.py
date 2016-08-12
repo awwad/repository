@@ -1,11 +1,10 @@
-from django.http import JsonResponse
-from django.views.decorators.csrf import csrf_exempt
+from django.http import JsonResponse, HttpResponse
 
+from director.models import ECU
 
 import json
 import time
 
-@csrf_exempt
 def index(request):
     assert request.method == 'POST'
     vehicle_version_manifest = json.loads(request.body)
@@ -47,3 +46,23 @@ def index(request):
     # release metadata, which points to the director metadata specific to this
     # vehicle and request.
     return JsonResponse(director_metadata)
+
+
+def Enroll(request):
+    return HttpResponse("Enroll? I don't think so, Tim.") 
+
+def List(request):
+    all_entries = ECU.objects.all()
+    returnstr = "<br />Found " + str(all_entries.count()) + " records."  
+    returnstr += "<table class=\"fancytable\">" 
+    returnstr += "<tr><td>Serial</td><td>Pub Key</td><td>Crypto</td><td>is Primary?</td></tr>"
+    for x in range(0, all_entries.count()):
+        returnstr += "<tr>"
+        returnstr += "<td>" + str(all_entries[x].serial_number) + "</td>" 
+        returnstr += "<td>" + str(all_entries[x].public_key) + "</td> "
+        returnstr += "<td>" +  "</td>" 
+        returnstr += "<td>" + str(all_entries[x].primary) + "</td>" 
+        returnstr += "</tr>"
+
+    returnstr += "</table>"
+    return HttpResponse(returnstr) 

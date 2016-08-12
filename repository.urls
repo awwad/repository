@@ -1,0 +1,12 @@
+#
+# Sam Lauzon / Aug 9 2016
+#  slauzon@umich.edu 
+# 
+
+from django.conf.urls import url
+
+from . import views
+
+urlpatterns = [
+    url(r'^/uptane/'),
+]

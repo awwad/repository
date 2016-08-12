@@ -4,8 +4,11 @@ import json
 import time
 
 def index(request):
-    assert request.method == 'GET'
+    # NO, both posts and gets work. 
+    #assert request.method == 'GET'
     nonces = json.loads(request.body)
+    print nonces
+    print json.loads(request.body)
     assert isinstance(nonces, list)
 
     response = {}

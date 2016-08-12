@@ -6,9 +6,13 @@ import sys
 
 def get(number_of_ecus):
     nonces = random.sample(xrange(sys.maxint), number_of_ecus)
-    request = requests.get('http://127.0.0.1:8000/timeserver/', json=nonces)
+    print nonces
+    request = requests.post('https://uptane.umtri.umich.edu:24515/timeserver/', json=nonces)
+    print "Request URL: " + request.url + "  \n"
+    print "Request Text: " + request.text + " \n"
     assert request.status_code==200
     response = request.json()
+    print response 
     # TODO: Check signatures.
     assert len(response)==number_of_ecus
     # Check all current times are equal: http://stackoverflow.com/a/3844948
