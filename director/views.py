@@ -49,7 +49,13 @@ def index(request):
 
 
 def Enroll(request):
-    return HttpResponse("Enroll? I don't think so, Tim.") 
+    #todo: Check if exists? 
+    print request.GET['serial']
+    return HttpResponse("Enroll? I don't think so, Tim.") #Satisfy the request to calm down the ajax request
+    ## VALIDATE ME -- this breaks. What's the ID? Gotta look up the latest? 
+    newecu = ECU(serial_number=request.GET['serial'], public_key=request.GET['key']) 
+    newecu.save()
+    return 0 # because we messed up.
 
 def List(request):
     all_entries = ECU.objects.all()
