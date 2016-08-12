@@ -17,7 +17,6 @@
        <input type="text" id="serial_number" value="" /> 
        <input type="text" id="public_key" value="" /> 
        <select name="cryptography_method"> <option value="ed25519">ed25519</option></select> 
- 
      </div> 
      <br /> 
    <input type="button" id="timestamp" value="timestamp" /> &nbsp;

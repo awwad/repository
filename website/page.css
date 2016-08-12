@@ -8,6 +8,10 @@ body {
  font-family: Lato; 
 }
 
+input, select { 
+ font-size: 10px;
+}
+
 .clientdata { 
  background-color: #c0c0c0;
 }
