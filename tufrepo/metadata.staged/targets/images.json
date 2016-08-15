@@ -1,0 +1,72 @@
+{
+ "signatures": [
+  {
+   "keyid": "5c1d5d2037e71798fcc20b63ae823f0074da1e588ffdd182baab97abac67815c",
+   "method": "RSASSA-PSS",
+   "sig": "1c69dd4b427646517eb881206c65969c017d06f614f39b21fd18f8ad0cfc7332eca5d68021cb7754fd0f9e291b10c0ac731168a337b268acf1f37d2a041b1346b29fd42da544b22f3a6a66984bc1a0597f16fa1f8d395bae977cb9bd2b155f30bb5fb227c2c3869a4c97e3303083c3b7e559d3b8763d22c38c177c30047bfc24e8f01b23be36ae3ef84e178e9a9dfbebbff8158bfcdaadf44156afb2f3c8d3a7ce503121f31e3acd7a3822bc69f48097e9071c55ef1c62613864602d92af3a89dc20e7403c9c4a33d269caa8593127e26f4eb8ade69b40b0452a0f5ebbec93c3754f546faf94d35d668ec7151c62d686e6a29299f6b5b4f7a61919d8285ab4a08b54ac22b81b2f14137d48ab1d1ce6601260129cbeff5f882d12258bf10911a847f669ab5a4ed6cbb290dc1b0c178761298e79415760df2614767aee91778ebe4b73565dcac51dd8119e0a38a29b04f2e3bc5ec7d07bab520aa5bf7dcda95d67ac46a6684e348bdbced83564eec7137bef1a8db2b12359bc3044a549ab77015e"
+  }
+ ],
+ "signed": {
+  "_type": "Targets",
+  "delegations": {
+   "keys": {
+    "33eda7a10a51c6ec13bc06e975c20599e9b155efdd72326ff0fd1ffb5fdf7003": {
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAzCByt9zlk9w0ScAoMLFz\n0+o85U2YTNrGv4+wAGYAhMEPwkNNYIdRrPlEMAxfafqURo3dPfTW+QyaKtd79+15\nkvKtgDuMkq9QpG+XaekiQ+BwSYll1aCytRAjiuwCPfTN2AInOY2n57h6XhBRCzwo\nXcVHayd2Bdlqowe0gpa7fueyYJiDAWQwN+f0adaUmLnOwOh9EBGZTlL1d7FyqnOq\nqDV7kLfSUdloBkU7vnhOvyJmmyl10eHpPvwWtFqD4YmTXgFYsZko4qgheAQ1uXur\ndYzqFyH1DKaw4E16X+CZjrqt9sC2d5hezuaYNv5gDYWj7/OPwvZnUCke2ZZXGhN0\n7rvBVPzu5FbC/kdXhzZc6OPZj7BGvyqSjte9Uh3QY6hTFgSGj2AKaTN7uMB+t8Wh\nD0Z+/dDFtMijfPTDBvqw6V9re3AKM0dJiLh25ezugz0r/MGwSGuZK/mUM2NJFAUF\nmnt1i80K1u/fC+TsJTLQ5kWJx5+XvqgLSUBoyyNkeBX1AgMBAAE=\n-----END PUBLIC KEY-----"
+     }
+    },
+    "bdaf99bf3eb60efc84057302fb08e7b873aebebdf8964fed9f22d5fa7f6817ea": {
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAxBkHhZC0t8z0ZRH6TeP+\nR3JLtGpp8uobF3MOxsdIS3r8JXRgE/XYCYXJ8JspbuQQDTk8c/n7Y5ZopTnvCyfz\nxiMXQD5dN7VjRrrR6N57/Jnj8ywRfL3gE8N/n4jcyY/kyGBDV4jyGZrl2+SXIQdj\nITpEzFT8BbVXv2d/iUXGqHSIYjLQlvDaPXhSr0JYFB+H+OKItZ1QELpw4HWrfyF6\n/aUyGF6zGiDQ7JE1EYxFe/vGXPitgJHfYrWhcK1Wx2r+wg2AbBsTwNUpIwM/fqin\n6Q3izhUj1QAFj5HR5jKcgefHPumNL8Nby4YsCNZ5BMo0VBrkUx12Cqabxq1GkYid\nTZz+JJIz2ftADLa4KdWGd1AzUyKD2CLNd/KMdudFSBvrFgWb5yKWRr0a6NqiRqPB\nSpPso6uMhiRv3I/87D+cKMFpAtFmDwVCJmpy63s1nqK+CrJsTxAtc++Zo78393/S\nmZZLjy9wkctLnpck6NXBclVCZqS9OdL///87ZbPPG/FtAgMBAAE=\n-----END PUBLIC KEY-----"
+     }
+    },
+    "d9421c8eeeb779a52118708d0bebd49de76ddda3dc22e9c6bfa1014b4b9ae9b8": {
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAwf0BT65LxJVMz7nOolr+\n4CQCsygOWPXaFIVbCH3M88s4ZimaX6iY9RMJwz95MHVQOJUGlR7IawkIfbyFwMSU\ngC6kyjZ/xZ+4fFgzO/KGTf0pjpJLEA17CZsWEIOKY8GVCK4dI9HpHfQVgjT0JSYo\nFvnNNNG6g30Ypb9rPhBips6EgG6UPHvriOQRmNiPUhtzhuNRibNZ55uZCSoehKFu\nsDZX0Mf8f9UYspItuna+HfeW4Sqi+54f5ZujzcAc8C/YtkFUM+aD6tuxHzAPgrs1\n9EfaCjfMVyzosBFIhUcAgzfMKbtrMKIOHj9zz3Oos7KR4KYmlJK2ZvStsHwqh2Mm\nMq+5siSPdIzqBWYV7LBK/gdS56wxA1lx6fFcTUY69hOdWXTDWjQ7S1ET/g/5PuAq\nK8cRMWI637QETJUnMwzycP/dNvVXGpy5LhoUp2g6JAuC4wbryHQNpi4hnwNQeSZA\njdU0Lx49KWKfiDR8uGl5cHhbl9r1MPfF/F3ByA+i4RwVAgMBAAE=\n-----END PUBLIC KEY-----"
+     }
+    }
+   },
+   "roles": [
+    {
+     "backtrack": true,
+     "keyids": [
+      "d9421c8eeeb779a52118708d0bebd49de76ddda3dc22e9c6bfa1014b4b9ae9b8"
+     ],
+     "name": "targets/images/brakes",
+     "paths": [
+      "/images/brakes/"
+     ],
+     "threshold": 1
+    },
+    {
+     "backtrack": true,
+     "keyids": [
+      "bdaf99bf3eb60efc84057302fb08e7b873aebebdf8964fed9f22d5fa7f6817ea"
+     ],
+     "name": "targets/images/acme",
+     "paths": [
+      "/images/flobinator/acme/"
+     ],
+     "threshold": 1
+    },
+    {
+     "backtrack": true,
+     "keyids": [
+      "33eda7a10a51c6ec13bc06e975c20599e9b155efdd72326ff0fd1ffb5fdf7003"
+     ],
+     "name": "targets/images/cell",
+     "paths": [
+      "/images/cellfw/"
+     ],
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2016-11-12T04:45:35Z",
+  "targets": {},
+  "version": 1
+ }
+}

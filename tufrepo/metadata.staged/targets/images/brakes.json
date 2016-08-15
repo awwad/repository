@@ -1,0 +1,32 @@
+{
+ "signatures": [
+  {
+   "keyid": "d9421c8eeeb779a52118708d0bebd49de76ddda3dc22e9c6bfa1014b4b9ae9b8",
+   "method": "RSASSA-PSS",
+   "sig": "0b6ae55cf692007dcc1a5b2ebd7b3f8f8e7d0feee21c9f56db787f0a84d60e01959bc158e1efb6f3553bce208056f7423017409f8c818ef9e4ca0d28b57a2c67c2addaa72a68a96b0bc47231721874349203a8cf7fd0b7a1ed7777cd9b13247d8e8b920832a4f3e3e0d9d551faa5e7e99f810782e781cecafd0fed1bdf6990dff6c9486dd244e19104d18335ee80262dfd758a011b573d60c403249016598f1342e98d7a3b4e84246599bad712ba6afac100935262d4e83e89e145bb7a2286cbfc1c5164a542d89fa9534dd10d0408683756fb15b196b1c2aa7ca3e52a6b3fe75217dc8824e4f2a02ac31c2fa4c7b0d4d1e3b7a5c1f3c0da0679eb17f8ef463e0f8882f7bf984357efe4bade9124449d336dbebf98c500cb5e2d27160e78cc4bb85efe1c18c0a2769b43ec952cad58b19f67ab064a2db0bd4b91e8921070c269758955cd940e474897d8376c82d9575590c6cbc7eafcce60bed17aa155ed7e91c0255b2f382c1add350a7ab022cb5dac88ac08c25bcbd8b979131ce84f367caa"
+  }
+ ],
+ "signed": {
+  "_type": "Targets",
+  "delegations": {
+   "keys": {},
+   "roles": []
+  },
+  "expires": "2016-11-12T04:45:41Z",
+  "targets": {
+   "/images/brakes/E859A50_9613.zip": {
+    "hashes": {
+     "sha256": "cb9671e7ae889a7b61ef6eeda0a8d254d96353b9a58ee4569d372b83ce910210"
+    },
+    "length": 19
+   },
+   "/images/brakes/config/someconfig.cfg": {
+    "hashes": {
+     "sha256": "bfb29a10aa5a3c862848cedf4d2270d9fbbe5b6a759cc320ce66c218299f71fd"
+    },
+    "length": 7
+   }
+  },
+  "version": 1
+ }
+}
