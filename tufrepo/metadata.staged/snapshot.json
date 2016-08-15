@@ -3,35 +3,35 @@
   {
    "keyid": "1bb6517f7582a883f9bd2c382120173c3d3301b9fe9f3c85a3dfa8294eb02add",
    "method": "RSASSA-PSS",
-   "sig": "99d25eff2e6be038fe1b0734ccc4f278a53da807cac5c9b95efe3ec506ff016068cb37fcf0b947fb11746eaf9ce75561ed2601d3cbcd753e2b32673b6299beb4f4fe6f04f3743011ba998ffd30633a052c612a853f7b1ea8cb3de14a9d08f107b2b9914ae3db5f2968ad66e7988d5b91429b06630b8c543c75de77332b6086d55a5cf481543fac14c5f923749b8ed80b5c02ba79fc6d862935c4c8d43acc1072386d27665c25c549ac32e27c47cf32bfba29b2b8246672b347c9646686d561857cc67a2226bb1071c91c12d6d1470d92b668c23361dbbf597723041f21f6ad9b42301693e2c52163f02a09c04dab3d0c68ac3c7c43914e18ae0bcdc79bdc01ea69d2ac8fa4a56f08d5224514a072bba74e47e5f4a21e904db12bca06a9cefe21b9f9828851963bb8c926d1bcb785736bc94fbad342504d05f80679668be492fdcf016bc8ac83ce9f762a88a831fb437f95a4725fe3b70439c7bfdf76cd83d447d9bbb2fe4206234723ba3ff2ce07949ebc37fc0867c9a5588ddfcdf4c35a389c"
+   "sig": "6e800f2f55ca3985ec3967f6ca75342b5e3f22749b804d904e5cb0d6afc3b30b25fbe5a5f80a24f6bf14d84966a3bc5c47f38305a84f65eebc4fdd9c55dd9cf16dacc36a374e7291ff4d1f6f288e513c4eb4f0ebf6c1e30e8fda10ab46a01e4330d2caf0a5d2d241a1e0751dcd56b7aed4239cadee0ea431bfedd0779cc2381be2f8e6d3403f4e0cb59579a05db1a9fec6aedb2bd07a49c95cbec28091eb9d65a65b30033bca01a80094ba70354b6b4cb339aa557416be8ad452a932d15c610bec96a40205d20fcf27f66662f2f343fe56a1b9f6058304f672fa6853d23d284b689245ded7e96791b88c94d990a0cbed1566cd400566b9cde0592a462c6436f4765bfcb7cd541514bb5a8403fc30dd0c61a8956b7fd867208dcc8c461e5d1fce6c3ce04db840a7d71ddf79a991ead9de0d516aebeb5e4259e9f281d7de28772d00693ba019a1229a8f176c6c4799f4e0310869d85d2685832346f8cb7db877099469c8c583ed19f5d2087ccc20eeda35d475f01c05ee2e490c421d89b2cc9558"
   }
  ],
  "signed": {
   "_type": "Snapshot",
-  "expires": "2016-08-19T21:17:58Z",
+  "expires": "2017-08-15T00:00:00Z",
   "meta": {
    "root.json": {
-    "version": 1
+    "version": 4
    },
    "targets.json": {
-    "version": 1
+    "version": 4
    },
    "targets/director.json": {
-    "version": 1
+    "version": 2
    },
    "targets/images.json": {
-    "version": 1
+    "version": 2
    },
    "targets/images/acme.json": {
-    "version": 1
+    "version": 2
    },
    "targets/images/brakes.json": {
-    "version": 1
+    "version": 2
    },
    "targets/images/cell.json": {
-    "version": 1
+    "version": 2
    }
   },
-  "version": 1
+  "version": 4
  }
 }
